@@ -1,0 +1,64 @@
+/* Global styles */
+html {
+    background-color: white;
+}
+
+body {
+    font: 1rem / 1.5 system-ui;
+    padding: 20px;
+    background-color: #efefef;
+    margin: 0 auto 0 auto;
+}
+
+/* Navigation bar styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #4a9e4a;
+}
+/* About Me styles */
+#about-me {
+    margin-bottom: 20px;
+}
+#about-me h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about-me img.profile-pic {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+#about-me address{
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+/* Professional Summary styles */
+#pro-summary {
+    border: thick double #32a1ce;
+    padding: 20px;
+}

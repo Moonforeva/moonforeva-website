@@ -1,140 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moonforeva</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Moonforeva' Website</h1>    
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moonforeva</title>
+        <link rel="stylesheet" href="css/global.css">
+        </head>
 
-    <main>
+        <body>
+        <header>
+            <h1>Moonforeva' Website</h1>    
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" data-page="pages/home">Home</a></li>
+                <li><a href="#" data-page="pages/about_me">About Me</a></li>
+                <li><a href="#" data-page="pages/projects">Projects</a></li>
+                <li><a href="#" data-page="pages/contact">Contact</a></li>
+            </ul>
+        </nav>
 
-        <section id="about-me">
-            <h1>SALEHUDDIN BIN ABD LATIF</h1>
-            <img src="assets/images/passport photo blue-removebg-preview.jpg" alt="Profile Picture" class="profile-pic">
-            <address>
-                Phone: +60 16 652 4941
-                <span aria-hidden="true">|</span>
-                Email: <a href="mailto:salehuddin.bin.abd.latif@gmail.com">salehuddin.bin.abd.latif@gmail.com</a>
-                <span aria-hidden="true">|</span>
-                Location: Shah Alam, Selangor
-            </address>
-        </section>
-        
-        <section id="pro-summary">
-            <h2>Professional Summary</h2>
-            <p>Hello! My name is Salehuddin Bin Abd Latif. I am a software developer with a passion for technology and innovation. I have experience in developing AI Edge solutions for smart cities and have a strong background in mechanical systems engineering.</p>
-        </section>
-
-
-        <section id="work-experience">
-            <h2>Work Experience</h2>
-            <ul>
-                <li><b>Software Developer</b></li>
-                <li>Company: aRFi Technologies Sdn Bhd</li>
-                <li>Work Period: December 2025 - Present</li>
-                <li>Responsibilities:
-                    <ul>
-                        <li>Set up and configured AI Edge devices for smart cities monitoring.</li>
-                        <li>Developed additional features for the AI Edge platform.</li>
-                        <li>Provided technical support and maintenance for deployed AI Edge solutions.</li>
-                        <li>Developed in-house smart cities AI models and applications.</li>
-                    </ul>
-                </li>   
-            </ul>
-        </section>
-
-        <section id="education">
-            <h2>Education Background</h2>
-            <ul>
-                <li><b>Master of Engineering (Mechanical Systems Engineering)</b></li>
-                <li>University: Tokyo University of Agriculture and Technology (TUAT)</li>
-                <li>Study Period: <time datetime="2023-04-01">April 2023</time> - <time datetime="2025-03-31">March 2025</time> (2 years)</li>
-            </ul>
-            <ul>
-                <li><b>Bachelor of Mechanical Precision Engineering</b></li>
-                <li>University: Universiti Teknologi Malaysia (UTM)</li>
-                <li>Study Period: <time datetime="2017-09-01">September 2017</time> - <time datetime="2021-10-31">October 2021</time> (4 years)</li>
-            </ul>
-            <ul>
-                <li><b>South Australian Matriculation</b></li>
-                <li>University: International Education College (INTEC)</li>
-                <li>Study Period: <time datetime="2010-09-01">September 2010</time> - <time datetime="2011-12-31">December 2011</time> (1.5 years)</li>
-            </ul>
-            <ul>
-                <li><b>Sijil Pelajaran Malaysia (SPM)</b></li>
-                <li>School: Sekolah Berasrama Penuh Integrasi Kubang Pasu</li>
-                <li>Study Period: <time datetime="2008-02-01">February 2008</time> - <time datetime="2009-12-31">December 2009</time> (2 years)</li>
-            </ul>
-            <ul>
-                <li><b>Penilaian Menengah Rendah (PMR)</b></li>
-                <li>School: Sekolah Menengah Kebangsaan Paya Kemunting</li>
-                <li>Study Period: <time datetime="2005-01-01">January 2005</time> - <time datetime="2007-12-31">December 2007</time> (3 years)</li>
-            </ul>
-            <ul>
-                <li><b>Ujian Penilaian Sekolah Rendah (UPSR)</b></li>
-                <li>School: Sekolah Kebangsaan Sultan Ahmad Tajuddin</li>
-                <li>Study Period: <time datetime="2000-01-01">January 2000</time> - <time datetime="2004-12-31">December 2004</time> (6 years)</li>
-            </ul>
-        </section>
-
-        <section id="certifications">
-            <h2>Certifications</h2>
-            <ul>
-                <li><b>Certificate of Competence - Data Acquisition and Applied IoT Solutions in Industry (Certified by Bosch Rexroth)</b></li>
-                <li>Provider: KISMEC Sungai Petani</li>
-                <li>Study Period: <time datetime="2025-06-01">June 2025</time> - <time datetime="2025-08-31">August 2025</time> (3 months)</li>
-                <li>Description:
-                    <ul>
-                        <li>Flow Programming (Node-Red)</li>
-                        <li>Internet of Things (IoT) and communication protocol MQTT and OPC-UA</li>
-                        <li>Data Visualization using Node-Red and Google Looker</li>
-                        <li>PLC Programming and wiring</li>
-                        <li>3-phase Motor Control</li>
-                    </ul>
-                </li>
-                
-            </ul>
-            <ul>
-                <li><b>Certificate of Completion - Applied Data Science Lab </b></li>
-                <li>Provider: WorldQuant University</li>
-                <li>Acquired: August 2025</li>
-                <li>Description:
-                    <ul>
-                        <li>Database (SQL, MongoDB)</li>
-                        <li>Extraction, Transformation, and Loading (ETL)</li>
-                        <li>Data Analysis and Visualization</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <aside>
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: Python, C++, JavaScript</li>
-                <li>Web Development: HTML, CSS, React, PHP</li>
-                <li>Machine Learning: TensorFlow, PyTorch</li>
-                <li>Data Analysis: Pandas, NumPy, Matplotlib</li>
-                <li>Database Management: SQL, MongoDB</li>
-                <li>Version Control: Git, GitHub</li>
-                <li>Operating Systems: Windows, Linux</li>
-                <li>Computer Vision: OpenCV</li>
-            </ul>
-        </aside>
-    </main>
-    <footer>
-        <p>&copy; 2026 Salehuddin Bin Abd Latif. All rights reserved.</p>
-    </footer>
-</body>
+        <main>
+        </main>
+        <footer>
+            <p>&copy; 2026 Salehuddin Bin Abd Latif. All rights reserved.</p>
+        </footer>
+        <script src="js/app.js"></script>
+    </body>
 </html>
